@@ -1,0 +1,251 @@
+# A Community Legal Aid App
+# Built by Michael Buccino & Melanie Kaufman
+comment: |
+  Triage tool to provide guide documents based on specific housing issues.
+---
+# Title in top left of window
+metadata:
+  title: |
+    Massachusetts Legal Resource Finder - Housing Guide
+  short title: |
+    LRFGuideMe - Housing
+  continue button label: Next
+  show login: False
+---
+objects:
+  - user: Individual
+  - finalFile: DAFileCollection
+---
+# Color theme of interview
+features:
+  bootstrap theme: https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/cerulean/bootstrap.min.css
+  question back button: True
+  navigation back button: False
+---
+include:
+  - HousingGuide-screen-output.yml
+  - HousingGuide-attachments.yml
+---
+# Interview Logic
+mandatory: true
+comment: |
+  This is the main logic of the interview.  It controls the overall flow of the interview and checks to see if the user selected issues that need further questioning.
+code: |
+  start_screen
+  user_agree
+  if not user_agree:
+    alternate_exit
+  else:
+    main_questions   
+    #Exit if "None of the above" is checked
+    if not user_issues['bad_conditions']:
+      if not user_issues['behind_on_rent']:
+        if not user_issues['complaints']:
+          if not user_issues['eviction']:
+            if not user_issues['rent_increase']:
+              if not user_issues['subsidized_housing']:
+                alternate_exit 
+    #Deal with sub questions
+    if user_issues['subsidized_housing']:
+      subsidized_questions    
+      if not user_issues_subsidized['verification']:
+        if not user_issues_subsidized['lost_income']:
+          if not user_issues_subsidized['new_rent']:
+            alternate_exit                 
+    if user_issues['eviction']:
+      eviction_questions    
+    if user_issues['rent_increase']:
+      rent_increase_questions    
+    #output screen
+    display_results           
+---
+field: start_screen
+question: |
+  GUIDE ME: Housing
+subquestion: |
+  This is a guided interview intended to help you get specific information for the housing issue you are facing.  
+  
+  It will ask a short series of questions about your issue and then provide downloadable documents based on your responses.
+  
+  You will have the option to provide an email address or phone number to send these documents at the end of the interview, but you do not need to provide one to see your results.
+---
+question: |
+  Disclaimer:
+subquestion: |
+  This app will guide you through the steps needed to resolve your issue, but no attorney-client relationship is formed from this guidance.
+  
+  Any information given by you in this guide is not confidential and is not protected by the attorney-client privilege.
+  
+  This app is currently under development and not all features may be fully functional.
+fields:
+  - By clicking "Yes", I understand the above statements and agree to the terms.: user_agree
+    datatype: yesnoradio
+    default: true
+---
+# Main Issue Questions
+question: |
+  Which of the following best describes your issue?
+fields:
+  - Tell us more about what is going on to find out what you can do about it.: user_issues
+    datatype: checkboxes
+    choices:
+      - ${main_issues['bad_conditions']['label']}: bad_conditions
+      - ${main_issues['behind_on_rent']['label']}: behind_on_rent
+      - ${main_issues['complaints']['label']}: complaints
+      - ${main_issues['eviction']['label']}: eviction
+      - ${main_issues['subsidized_housing']['label']}: subsidized_housing
+      - ${main_issues['rent_increase']['label']}: rent_increase
+       
+continue button field: main_questions
+---
+# Eviction Sub-questions
+question: |
+  ${main_issues['eviction']['label']}
+
+fields:
+  - label: |
+      Have you been to court? (If you missed your court date or didn't learn about the case until after your default judgment, answer "yes")
+    field: eviction_court
+    datatype: radio
+    choices:
+      - Yes: eviction_court_yes
+      - No: eviction_court_no
+  - ${eviction_issues['written_notice_no']['label']}: written_notice
+    show if: 
+      variable: eviction_court
+      is: 'eviction_court_no'
+    datatype: radio
+    choices:
+      - Yes: written_notice_yes
+      - No: written_notice_no
+  - What was the written notice for?: written_notice_type
+    show if:
+      variable: written_notice
+      is: 'written_notice_yes'
+    datatype: radio
+    choices:
+      - ${eviction_issues['court_summons']['label']}: court_summons
+      - ${eviction_issues['letter_or_notice']['label']}: letter_or_notice
+  - What happened with the court case?: case_results
+    show if: 
+      variable: eviction_court
+      is: 'eviction_court_yes'
+    datatype: radio
+    choices:
+      - ${eviction_issues['default_judgement']['label']}: default_judgement
+      - ${eviction_issues['agreement']['label']}: agreement
+      - ${eviction_issues['hearing']['label']}: hearing
+  - ${eviction_issues['default_served_yes']['label']}: default_served
+    show if: 
+      variable: case_results
+      is: 'default_judgement'
+    datatype: radio
+    choices:
+      - Yes: default_served_yes
+      - No: default_served_no
+  - ${eviction_issues['violation_agreement_yes']['label']}: violation_agreement
+    show if:
+      variable: case_results
+      is: 'agreement'
+    datatype: radio
+    choices:
+      - Yes: violation_agreement_yes
+      - No: violation_agreement_no
+  - ${eviction_issues['hearing_served_yes']['label']}: hearing_served
+    show if: 
+      variable: case_results
+      is: 'hearing'
+    datatype: radio
+    choices:
+      - Yes: hearing_served_yes
+      - No: hearing_served_no
+  
+continue button field: eviction_questions
+---
+# Subsidized Housing Sub-questions
+question: |
+  ${main_issues['subsidized_housing']['label']}
+fields:
+  - Tell us more about what is going on.: user_issues_subsidized
+    datatype: checkboxes
+    choices:
+      - ${subsidized_issues['verification']['label']}: verification
+      - ${subsidized_issues['lost_income']['label']}: lost_income
+      - ${subsidized_issues['new_rent']['label']}: new_rent
+
+continue button field: subsidized_questions
+---
+# Rent Increase Sub-questions
+question: |
+  ${main_issues['rent_increase']['label']}
+subquestion: |
+  When and how a landlord can ask for rent increase depends on the type of
+  tenancy you have.
+fields:
+  - html: Choose your current tenancy type.
+  - no label: tenancy_type
+    datatype: radio
+    choices:
+      - ${rent_increase_issues['tenancy_no_writing']['label']}: tenancy_no_writing
+      - ${rent_increase_issues['lease']['label']}: lease
+      - ${rent_increase_issues['section_8']['label']}: section_8
+      - ${rent_increase_issues['mobile_home']['label']}: mobile_home
+      - ${rent_increase_issues['tenant_at_will']['label']}: tenant_at_will
+      - ${rent_increase_issues['public_housing']['label']}: public_housing
+  - Do you have a mobile voucher?: voucher
+    show if:
+      variable: tenancy_type
+      is: section_8
+    datatype: radio
+    choices:
+      - Yes: voucher_yes
+      - No: voucher_no
+
+continue button field: rent_increase_questions
+---
+# Results on the screen
+event: display_results
+need: finalFile.finished
+question: |
+  Guide Me: Results
+subquestion: |
+  _Below is information based on your input._
+
+  ${results}<br/>
+  
+  **You can download or email the result from below.**
+
+buttons:   
+  - Restart: restart  
+attachment code: finalFile
+---
+event: alternate_exit
+question: |
+  For more information...
+subquestion: |
+  If you 
+  % if user_agree:
+  have a different issue from what is shown in this interview, 
+  % else:
+  do not agree to the terms of this interview,
+  % endif
+  you may want to check Massachusetts Legal Aid's website.<br/>  
+  Click this link [Massachusetts Legal Aid](https://www.masslegalservices.org)<br/><br/>
+  or copy the link into your browser **https://www.masslegalservices.org**
+buttons:   
+  - Restart: restart  
+--- 
+comment: |
+  FConstruct the typical dowload section of the final screen.
+code: |        
+  finalFile.pdf = pdf_concatenate(pdf_download)
+  finalFile.info = {
+    'name': 'Housing Guide - do you like this name?', 
+    'filename': 'housing_guide', 
+    'description': 'Rochelle/Gordon - please give me your preferred text here', 
+    'file': {'pdf': finalFile.pdf.number}, 
+    'mimetype': {'pdf': finalFile.pdf.mimetype}
+  }
+  finalFile.finished = True  
+
+  
