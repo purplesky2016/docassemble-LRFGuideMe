@@ -10,7 +10,7 @@ protect you in case the landlord later claims he or she never had
 notice. Make sure you put a date on the notice, and keep a copy of what
 you send for your records.
 
-Sample Demand for Repair letters can be found here. [https://www.masslegalhelp.org/housing/bad-conditions/forms-shortcut](https://www.masslegalhelp.org/housing/bad-conditions/forms-shortcut)
+Sample Demand for Repair letters can be found here. [https://masslegalhelp.org/housing/bad-conditions/forms-shortcut](https://www.masslegalhelp.org/housing/bad-conditions/forms-shortcut)
 
 #####Get an Inspection:
 
@@ -42,7 +42,7 @@ abated or reduced -- even if you are behind on your rent. If your
 landlord has not been repairing bad conditions, you may be able to sue
 your landlord for money
 
-Learn more about how to sue your landlord here. [https://www.masslegalhelp.org/housing/lt1-pullout-13-taking-landlord-to-court](https://www.masslegalhelp.org/housing/lt1-pullout-13-taking-landlord-to-court)
+Learn more about how to sue your landlord here. [https://masslegalhelp.org/housing/lt1-pullout-13-taking-landlord-to-court](https://masslegalhelp.org/housing/lt1-pullout-13-taking-landlord-to-court)
 
 #####Hire a Lawyer:
 
