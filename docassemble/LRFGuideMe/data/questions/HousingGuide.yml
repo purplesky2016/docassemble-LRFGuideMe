@@ -57,22 +57,51 @@ code: |
   #4. Generate output screen
   display_results     
 ---
-field: start_screen
+
 question: |
-  GUIDE ME: Housing
+ Guide Me: Steps to help with your legal problem
 subquestion: |
-  This is a guided interview intended to help you get specific information for the housing issue you are facing.  
+  After you answer a few questions, you will get a list of steps to help you take control of your housing problem. You can:
   
-  It will ask a short series of questions about your issue and then provide downloadable documents based on your responses.
+   *	read the steps online,
+   *	email them to yourself or a friend, 
+   *	text them to yourself or a friend, or
+   *	all of the above.
+   
+  You only need an email address or phone number if you want to send the results to yourself or a friend.
   
-  You will have the option to provide an email address or phone number to send these documents at the end of the interview, but you do not need to provide one to see your results.
+  Tap the {green words} in any question for a definition or more information. 
+  
+fields:
+  - To continue, we need you to agree to our {terms of use}.: acknowledged_information_use
+    datatype: checkboxes
+    none of the above: False    
+    minlength: 1
+    choices:
+      - I accept the terms of use.
+    validation messages:
+      minlength: |
+        You cannot continue unless you agree to the terms of use.        
+continue button field: start_screen
+terms:
+  green words: |
+    Green words are legal terms or a short way to refer to something that needs more explanation. The definition or explanation pops up when you tap the green words.
+  terms of use: |
+    Your answers to the questions we ask are completely private. We do not keep or share your information with anyone.
+    
+    We do keep statistics about the overall number of questions and Guide Me's that people use. We use these statistics to we can make our better Guide Me's more helpful.
+    
+    The steps you get at the end are only information about things you **can** do to take control of your legal problem. They are not a list of things you **should** do. Talk to a lawyer to get advice about the best steps in your specific case.
+
 ---
 comment: |
   Main Issue Questions
 question: |
-  Which of the following best describes your issue?
+  What is your housing problem?
+subquestion: |
+  Check the box next to every problem you have:
 fields:
-  - Tell us more about what is going on to find out what you can do about it.: user_issues
+  - no label: user_issues
     datatype: checkboxes
     choices:
       - ${main_issues['bad_conditions']['label']}: bad_conditions
@@ -213,11 +242,7 @@ event: alternate_exit
 question: |
   For more information...
 subquestion: |
-  If you have a different issue from what is shown in this interview, you may want to check MassLegalHelp's website. <br/>
-  
-  Click this link [MassLegalHelp](https://www.masslegalhelp.org) <br/>
-  
-  or copy the link into your browser **https://www.masslegalhelp.org**
+  If we did not list your housing problem, look at [MassLegalHelp.org/Housing](https://masslegalhelp.org/housing) for more help.
 buttons:   
   - Restart: restart  
 --- 
