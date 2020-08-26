@@ -1,8 +1,6 @@
-**Guide Me**: My landlord wants to raise the rent
-
-And
-
-I have a project based Section 8 or MRVP housing
+#### My landlord wants to raise the rent 
+#### and
+#### I have a project based Section 8 or MRVP housing
 
 If you have a subsidy that is fixed to the apartment, your rent is
 typically set based on your household income. So if your household
@@ -25,3 +23,4 @@ the landlord has agreed to rent to persons who are low income. If you
 live in one of these types of subsidized apartments, the rent can only
 go-up when the landlord receives approval from a government agency. Your
 lease will explain when and how this can happen.
+
