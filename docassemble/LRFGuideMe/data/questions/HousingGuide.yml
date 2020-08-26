@@ -6,9 +6,9 @@ comment: |
 # Title in top left of window
 metadata:
   title: |
-    Massachusetts Legal Resource Finder - Housing Guide
+    Massachusetts Legal Resource Finder - Housing Guide Me
   short title: |
-    LRFGuideMe - Housing
+    LRFGuideMe - Housing Guide Me
   continue button label: Next
   show login: False
 ---
@@ -22,6 +22,10 @@ features:
   question back button: True
   navigation back button: False
   debug: False
+  hide navbar: True
+  javascript: "https://mlrf-5f1d8.firebaseapp.com/assets/mlrf-da.js"
+  css: "https://mlrf-5f1d8.firebaseapp.com/assets/mlrf-da.css"
+  
 ---
 include:
   - HousingGuide-screen-output.yml
@@ -57,43 +61,19 @@ code: |
   #4. Generate output screen
   display_results     
 ---
-
+field: start_screen
 question: |
  Guide Me: Steps to help with your legal problem
 subquestion: |
   After you answer a few questions, you will get a list of steps to help you take control of your housing problem. You can:
   
-   *	read the steps online,
-   *	email them to yourself or a friend, 
-   *	text them to yourself or a friend, or
-   *	all of the above.
+   *	read the steps online, or
+   *	email them to yourself or a friend 
    
-  You only need an email address or phone number if you want to send the results to yourself or a friend.
-  
-  Tap the {green words} in any question for a definition or more information. 
-  
-fields:
-  - To continue, we need you to agree to our {terms of use}.: acknowledged_information_use
-    datatype: checkboxes
-    none of the above: False    
-    minlength: 1
-    choices:
-      - I accept the terms of use.
-    validation messages:
-      minlength: |
-        You cannot continue unless you agree to the terms of use.        
-continue button field: start_screen
-terms:
-  green words: |
-    Green words are legal terms or a short way to refer to something that needs more explanation. The definition or explanation pops up when you tap the green words.
-  terms of use: |
-    Your answers to the questions we ask are completely private. We do not keep or share your information with anyone.
-    
-    We do keep statistics about the overall number of questions and Guide Me's that people use. We use these statistics to we can make our better Guide Me's more helpful.
-    
-    The steps you get at the end are only information about things you **can** do to take control of your legal problem. They are not a list of things you **should** do. Talk to a lawyer to get advice about the best steps in your specific case.
+  You only need an email address if you want to send the results to yourself or a friend.
 
 ---
+ga id: MainQs
 comment: |
   Main Issue Questions
 question: |
@@ -113,6 +93,7 @@ fields:
        
 continue button field: main_questions
 ---
+ga id: EvictionQs
 comment: |
   Eviction Sub-questions
 question: |
@@ -178,6 +159,7 @@ fields:
   
 continue button field: eviction_questions
 ---
+ga id: SubsideHousingQs
 comment: |
   Subsidized Housing Sub-questions
 question: |
@@ -192,6 +174,7 @@ fields:
 
 continue button field: subsidized_questions
 ---
+ga id: RentIncreaseQs
 comment: |
   Rent Increase Sub-questions
 question: |
@@ -221,6 +204,7 @@ fields:
 
 continue button field: rent_increase_questions
 ---
+ga id: Results
 comment: |
   Results on the screen
 event: display_results
@@ -228,9 +212,11 @@ need: finalFile.finished
 question: |
   Guide Me: Results
 subquestion: |
-  _Below is information based on your input._
+  _Below is our recommendation based on your input._
 
   ${results}<br/>
+  
+  ${ disclaimerOnline }
   
   **You can download or email the result from below.**
 
@@ -238,6 +224,7 @@ buttons:
   - Restart: restart  
 attachment code: finalFile
 ---
+ga id: AltExit
 event: alternate_exit
 question: |
   For more information...
@@ -251,9 +238,9 @@ comment: |
 code: |        
   finalFile.pdf = pdf_concatenate(pdf_download)
   finalFile.info = {
-    'name': 'Housing Guide - do you like this name?', 
+    'name': 'Guide Me', 
     'filename': 'housing_guide', 
-    'description': 'Rochelle/Gordon - please give me your preferred text here', 
+    'description': '', 
     'file': {'pdf': finalFile.pdf.number}, 
     'mimetype': {'pdf': finalFile.pdf.mimetype}
   }

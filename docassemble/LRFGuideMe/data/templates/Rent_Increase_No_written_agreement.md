@@ -1,17 +1,13 @@
-**Guide Me**: My landlord wants to raise the rent
-
-And
-
-I am a tenant at will.
-
-Or
-
-I never had a written agreement.
+#### My landlord wants to raise the rent
+#### and I am a tenant at will
+#### or I never had a written agreement
 
 If you are a tenant at will or never had a written agreement, your
-landlord can *propose* a rent increase anytime.
+landlord can ***propose*** a rent increase anytime
 
-**Can my landlord just raise the rent?**
+Here are some things to know
+
+##### Can my landlord just raise the rent?
 
 No. You must agree to the rent increase before a landlord can start
 charging you the rent increase.
@@ -21,7 +17,7 @@ you never signed anything -- you have accepted the rent increase and are
 stuck paying it*. However, until you agree to pay the increase, you are
 not required to pay the higher rent.
 
-**Is there a requirement that the landlord give me written notice?**
+##### Is there a requirement that the landlord give me written notice?
 
 While you can agree to a rent increase any time -- even orally, a
 landlord may send a written notice to quit that terminates your existing
@@ -29,19 +25,21 @@ tenancy that includes an offer to enter into a new tenancy at a higher
 rent. While this notice is not required, many landlords will ask for a
 rent increase this way because if you don't agree to the rent increase,
 the landlord can then proceed to evict you. Learn more about what
-happens if you don't accept a rent increase below
+happens if you don't accept a rent increase below.
 
-**Is there any limit on how much a landlord can raise the rent**?
+##### Is there any limit on how much a landlord can raise the rent?
 
 No. Landlords can set rent at whatever amount they think they can get
 tenants to pay, not what you can afford. However, a landlord can not
-raise the rent as a way to [retaliate]{.underline} against you. If your
-landlord asks for rent increase within 6 months of reporting bad
-conditions in writing to the landlord or by your reporting code
-violations, the rent increase could be seen as a retaliation. Learn more
-about what to do if you think your landlord is retaliating against you.
+raise the rent as a way to
+[retaliate](https://www.masslegalhelp.org/housing/lt1-pullout-13-taking-landlord-to-court)
+against you. If your landlord asks for rent increase within 6 months of
+reporting bad conditions in writing to the landlord or by your reporting
+code violations, the rent increase could be seen as a retaliation. Learn
+more about what to do if you think your landlord is retaliating against
+[you](https://www.masslegalhelp.org/housing/lt1-pullout-13-taking-landlord-to-court).
 
-**I don't want to pay the rent increase. What should I do?**
+##### I don't want to pay the rent increase. What should I do?
 
 1.  Don't sign anything that says you agree to the rent increase.
 
@@ -58,7 +56,7 @@ about what to do if you think your landlord is retaliating against you.
     smaller rent increase, ask your landlord if he will accept a lesser
     increase. Some landlords may agree.
 
-**What will happen if I don't accept the rent increase?**
+##### What will happen if I don't accept the rent increase?
 
 When you don't accept a rent increase, it means you no longer have an
 agreement with the landlord on the continuation of your tenancy. At this
@@ -70,7 +68,5 @@ non payment of rent. When evictions are brought because a tenant refused
 to pay a rent increase, tenants typically can get additional time to
 move.
 
-Learn more about [Rent]{.underline} [Increases]{.underline}
-
-[\
-]{.underline}
+Learn more about Rent Increases here:
+[www.masslegalhelp.org/housing/lt1-chapter-5-rent](https://www.masslegalhelp.org/housing/lt1-chapter-5-rent).

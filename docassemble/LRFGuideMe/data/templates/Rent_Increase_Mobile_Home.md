@@ -1,10 +1,10 @@
-**Guide Me**: My landlord wants to raise the rent
+#### My landlord wants to raise the rent
+#### and
+#### I live in a mobile home park
 
-And
+Here are some things to know
 
-I live in a mobile home park
-
-**Do you live in town with rent control?**
+##### Do you live in town with rent control?
 
 If you live in one of these towns, a mobile home park must seeking
 permission from the town's rent control agency before it can raise the
@@ -23,7 +23,7 @@ rent:
 To find out how rent control works, you can contact your local town or
 city hall to get a copy of the rent control regulation
 
-**No Local Rent Control**
+##### No Local Rent Control
 
 If there is no mobile home rent control where you live, the park owner
 can charge any rent they want. A park owner may increase your rent, but
@@ -35,7 +35,7 @@ only if:
     that the tenancy ends in 30 days, and what the new rent amount will
     be.
 
-**Illegal Rent Increases**
+##### Illegal Rent Increases
 
 The rent increase is illegal if:
 
@@ -50,4 +50,5 @@ unfair.
 If you suspect that the rent increase is illegal, you can call the
 Attorney General's Consumer Complaint Division for help (617) 727-8400.
 
-You can learn more about mobile home park rules here.
+You can learn more about mobile home park rules here,
+[[www.masslegalhelp.org/housing/lt1-chapter-16-mobile-homes]{.underline}](http://www.masslegalhelp.org/housing/lt1-chapter-16-mobile-homes)

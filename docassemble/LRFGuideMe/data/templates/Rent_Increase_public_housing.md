@@ -1,10 +1,8 @@
-**Guide Me**: My landlord wants to raise the rent
+#### My landlord wants to raise the rent
+#### and
+#### I live in public housing
 
-And
-
-I live in public housing
-
-f you live in public housing, your rent is typically set based on your
+If you live in public housing, your rent is typically set based on your
 household income. So if your household income changes, and you have
 timely reported that change in income, you can expect a change in your
 rent.
