@@ -249,5 +249,5 @@ code: |
       if tenancy_type == 'public_housing':
         relevant_files.append(rent_increase_issues['public_housing']['attachment'])
 
-  pdf_download = pdf_concatenate(relevant_files)
+  pdf_download = pdf_concatenate(relevant_files, filename='housing_guide_me.pdf')
 

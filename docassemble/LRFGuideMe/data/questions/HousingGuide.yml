@@ -71,7 +71,6 @@ subquestion: |
    *	email them to yourself or a friend 
    
   You only need an email address if you want to send the results to yourself or a friend.
-
 ---
 ga id: MainQs
 comment: |
@@ -98,7 +97,6 @@ comment: |
   Eviction Sub-questions
 question: |
   ${main_issues['eviction']['label']}
-
 fields:
   - label: |
       Have you been to court? (If you missed your court date or didn't learn about the case until after your default judgment, answer "yes")
@@ -212,14 +210,11 @@ need: finalFile.finished
 question: |
   Guide Me: Results
 subquestion: |
-  _Below is our recommendation based on your input._
-
   ${results}<br/>
   
   ${ disclaimerOnline }
   
   **You can download or email the result from below.**
-
 buttons:   
   - Restart: restart  
 attachment code: finalFile
@@ -245,5 +240,3 @@ code: |
     'mimetype': {'pdf': finalFile.pdf.mimetype}
   }
   finalFile.finished = True  
-
-  
