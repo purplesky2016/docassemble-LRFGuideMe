@@ -58,12 +58,15 @@ code: |
   elif not issue['bad_conditions'] and not issue['behind_on_rent'] and not issue['complaints']:
     alternate_exit 
     
-  #4. Generate output screen
+  #4. Generate output screen  
+  emailYN = True
   display_results     
+  if emailYN:     
+    sent_then_download
 ---
 field: start_screen
 question: |
- Guide Me: Steps to help with your legal problem
+ Get steps to help with your legal problem
 subquestion: |
   After you answer a few questions, you will get a list of steps to help you take control of your housing problem. You can:
   
@@ -71,12 +74,13 @@ subquestion: |
    *	email them to yourself or a friend 
    
   You only need an email address if you want to send the results to yourself or a friend.
+
 ---
 ga id: MainQs
 comment: |
   Main Issue Questions
 question: |
-  What is your housing problem?
+  <h2>What is your housing problem?</h2>
 subquestion: |
   Check the box next to every problem you have:
 fields:
@@ -205,19 +209,63 @@ continue button field: rent_increase_questions
 ga id: Results
 comment: |
   Results on the screen
-event: display_results
-need: finalFile.finished
+field: display_results
 question: |
-  Guide Me: Results
 subquestion: |
+  ** Results for: **
   ${results}<br/>
   
   ${ disclaimerOnline }
+continue button label: Email
+action buttons:
+  - label: Download
+    action: download_only  
+---
+event: download_only
+code: |
+  downloadonly
+  emailYN = False
+---
+ga id: email
+question: |
+subquestion: |
+  If you want to email the output as a PDF file, please enter an email address below. Then click the button to send. When you get to the next screen, you can also open the file to download or print.
+    
+fields:
+  - Email address: email_address
+    datatype: email            
+continue button label: Send then Download 
+---
+ga id: download-after-email
+field: sent_then_download
+question: |
+  <h2>Download your results</h2>
+subquestion: |  
+  %if email_address:
+    %if sent_ok:
+      Your document was sent. 
+    %else:
+      For some reason, we were not able to send your document. Please check your email address spelling.
+    % endif
+  % endif    
+  <br/>If you click on the file below, it will open as a PDF file for you to download or print.
   
-  **You can download or email the result from below.**
-buttons:   
+  ${ pdf_download }
+
+buttons:     
   - Restart: restart  
-attachment code: finalFile
+---
+ga id: downloadonly
+event: downloadonly
+question: |
+  <h2>Download your results</h2>
+subquestion: |     
+  If you click on the file below, it will open as a PDF file for you to download or print.
+  
+  ${ pdf_download }
+
+buttons:     
+  - Restart: restart  
 ---
 ga id: AltExit
 event: alternate_exit
@@ -227,16 +275,16 @@ subquestion: |
   If we did not list your housing problem, look at [MassLegalHelp.org/Housing](https://masslegalhelp.org/housing) for more help.
 buttons:   
   - Restart: restart  
---- 
-comment: |
-  Construct the typical dowload section of the final screen.
-code: |        
-  finalFile.pdf = pdf_concatenate(pdf_download)
-  finalFile.info = {
-    'name': 'Guide Me', 
-    'filename': 'housing_guide', 
-    'description': '', 
-    'file': {'pdf': finalFile.pdf.number}, 
-    'mimetype': {'pdf': finalFile.pdf.mimetype}
-  }
-  finalFile.finished = True  
+---
+code: |
+  sent_ok = send_email(to=[email_address],
+                       template=email_template,
+                       attachments=[pdf_download])                      
+---
+template: email_template
+subject: |
+  Legal Resource Finder - Guide Me: Housing  
+content: |
+  Thank you for using our Legal Resource Finder - Guide Me app. 
+  
+  Based on your input, we have generated the attached information to help you handle your housing issues.
