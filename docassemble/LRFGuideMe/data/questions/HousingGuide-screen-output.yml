@@ -89,8 +89,6 @@ content: |
   % endif
   
   % if tenancy_type == 'section_8':  
-  ${rent_increase_issues['section_8']['inline']}
-  
   % if voucher == 'voucher_yes':  
   ${rent_increase_issues['voucher_yes']['inline']}  
   % endif
