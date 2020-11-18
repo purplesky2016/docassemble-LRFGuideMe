@@ -1,20 +1,38 @@
-#### My landlord wants to evict me 
-#### and
-#### I made an agreement with my landlord that I have not been able to keep.
+Guide Me: Steps you can take when...
+====================================
 
-Here are some steps you can take.
+You cannot keep the agreement you made with your landlord in your eviction case
+-------------------------------------------------------------------------------
 
-##### File a Motion To Amend Agreement: 
+#### File a Motion to Amend Agreement
 
-If you are having trouble keeping your agreement, you can try to get the
-landlord to agree to change the agreement. The way that you can get the
-landlord back to court to re-negotiate is to file a Motion to Amend
-Agreement.
+If you are having trouble keeping your agreement, you ask the landlord to change the agreement. The way that you can get the landlord back to court to change the agreement is to file a Motion to Amend Agreement. 
 
-##### Talk to Your Landlord:
+If you make an new agreement you can have your new agreement replace the
+old one. This way, it will be enforced the same way as the prior
+agreement.
+
+####  Talk to Your Landlord
 
 Some landlords may be willing to renegotiate the terms of your
-agreement. If your landlord is willing to do this, you should still file
-a Motion to Amend Agreement. At the hearing date, you can have your new
-agreement replace the old one. This way, it will be enforced the same
-way as the prior agreement.
+agreement.
+
+If your landlord agrees to change your agreement, you should still file
+a Motion to Amend Agreement so that your new agreement can be enforced
+
+####  Until December 31, 2020, you may be eligible to stop an eviction where your landlord is asking for back rent
+
+You might be protected by the federal CDC Moratorium if you
+
+-   cannot pay your full rent because you have lost income or have high
+    medical expenses, 
+
+-   are making best efforts to pay the rent including applying for
+    financial help, and
+
+-   are likely to become homeless or doubled up if evicted.
+
+[Learn more](https://www.masslegalhelp.org/covid-19/housing) about the
+moratorium, and how to send your landlord a
+[declaration](https://www.cdc.gov/coronavirus/2019-ncov/downloads/declaration-form.pdf)
+that you are protected by the federal CDC moratorium on evictions.

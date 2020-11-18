@@ -1,25 +1,27 @@
-#### My landlord wants to raise the rent
-#### and
-#### I have a mobile Section 8 or MRVP voucher
+Guide Me: Steps you can take when...
+====================================
 
-Here are some things to know
+Your landlord wants to raise the rent and you have a mobile Section 8 or MRVP voucher
+-------------------------------------------------------------------------------------
 
-If you have a mobile subsidy, the landlord can not raise the rent
-without first getting approval from the housing authority that
-administers the subsidy.
+If you have a mobile subsidy, your landlord can only raise your rent if
+they get approval first. They need approval from the housing authority
+that administers the subsidy.
 
-If your landlord insists you sign something without first getting
+If your landlord insists that you sign something **before** they get
 approval from the housing authority, contact your worker and ask for
 their help.
 
-Never start paying the rent increase -- even if you agree to it -
-without getting approval from your worker. Doing so could get both you
-and your landlord in trouble with the housing authority.
+Never start paying the rent increase -- even if you agree to it --
+before you get approval from your worker.
 
-Even if you agree to the rent increase, your housing authority worker
-needs to do the following before a rent increase can start
+Paying rent before you get approval could get both you and your landlord
+in trouble with the housing authority.
 
-1.  Your worker will review the fairness of the increase for you.
+Even if you agree to the rent increase, before a rent increase can
+start, your housing authority worker needs to:
 
-2.  Your worker will tell you how the rent increase will change what you
-    pay for rent.
+1.  Review the increase for you, to make sure it is fair. And
+
+2.  Tell you how the rent increase will change what **you** pay for
+    rent.

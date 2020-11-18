@@ -1,14 +1,25 @@
-#### I live in subsidized or public housing and I don't think I am paying the right rent
-#### and
-#### My worker or property manager has sent me a notice stating my new rent and I don't think it is correct
+Guide Me: Steps you can take when...
+====================================
 
-##### Ask for a meeting with your worker or property manager
+You live in subsidized or public housing,
+------------------------------------------
 
-If you live in *public housing* or have a *mobile Section 8 voucher*,
-you have the right to request an informal hearing or grievance if you
-think your rent is wrong. This should have been stated in your rent
-change notice.
+You think you are paying the wrong rent now, and
+------------------------------------------------
 
-If you live in *private subsidized housing*, you do not have a right to
-a hearing or grievance but the landlord is still required to consult
-with you if you think a mistake has been made. So ask for a meeting.
+Your worker or property manager sent you a notice of your rent and you think that is wrong also
+-----------------------------------------------------------------------------------------------
+
+#### Ask your worker or property manager for a meeting
+
+If you live in **public** housing or you have a **mobile Section 8
+voucher**, you have the right to ask for an informal hearing if you
+think your rent is wrong.
+
+Your notice of rent change should have included information about this
+right.
+
+If you live in **private** subsidized housing, you do **not** have the
+right to a hearing. But your landlord must still discuss your rent with
+you, if you think they made a mistake. So, ask your landlord for a
+meeting.

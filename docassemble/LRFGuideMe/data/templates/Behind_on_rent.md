@@ -1,44 +1,74 @@
-#### I am behind on my rent.
+Guide Me: Steps you can take when...
+====================================
 
-Here are some steps that you can take.
+You are behind on rent
+----------------------
 
-##### Apply for RAFT: 
+#### Apply for RAFT
 
-If Eligible - RAFT offers financial assistance to help pay back rent.
+If you qualify for the Residential Assistance for Families in Transition
+(RAFT) program, you can get help to pay rent when you are behind.
 
-Eligibility Depends on:
+To qualify:
 
--   Your family MUST be homeless or at risk of becoming homeless.
+-   Your family must be homeless or at risk of becoming homeless.
 
--   Your household MUST be income eligible
+-   Your household income must be low enough.
 
--   Must meet basic criteria of a RAFT Screen
+-   You need to show that RAFT assistance will stop your family from
+    becoming homeless. And
 
--   Your family MUST show that RAFT assistance will stabilize your
-    current housing situation.
+-   You must pass a Department of Housing and Community Development
+    (DHCD) RAFT Screening.
 
-To learn more, visit:
-www.mass.gov/service-details/learn-about-residential-assistance-for-families-intransition-raft.
+See:
+[Learn about Residential Assistance for Families in Transition (RAFT)](https://mass.gov/service-details/learn-about-residential-assistance-for-families-in-transition-raft) on the Mass.gov website.
 
-##### Make A Payment Plan With Your Landlord: 
+#### Until December 31, 2020, you may be eligible to stop an eviction where your landlord is asking for back rent
+
+You might be protected by the federal CDC Moratorium if you
+
+-   cannot pay your full rent because you have lost income or have high
+    medical expenses, 
+
+-   are making best efforts to pay the rent including applying for
+    financial help, and
+
+-   are likely to become homeless or doubled up if evicted.
+
+[Learn more](https://www.masslegalhelp.org/covid-19/housing) about the
+moratorium, and how to send your landlord a
+[declaration](https://www.cdc.gov/coronavirus/2019-ncov/downloads/declaration-form.pdf)
+that you are protected by the federal CDC moratorium on evictions.
+
+
+### Make a payment plan with your landlord
 
 Many landlords are more interested in getting the rent paid than
-evicting you, and will allow you to make payments plans. Many tenants
-have been able to put together payments plans drawing from their own
-resources, the RAFT program and charities to make a payment plan. It is
-recommended that you start working on a plan with your landlord as soon
-as possible. Ask your landlord if they will make a payment plan without
-going to court. If not possible, then wait to see if you can make a
-payment plan as part of the eviction case.
+evicting you. So they agree to payment plans.
 
-##### Go to Court Even If You Think You Have Worked It Out With Your Landlord:
+Many tenants have been able to put together payment plans drawing from
+their own resources, the RAFT program and charities.
 
-If your landlord started an eviction case against you in court, make
-sure to attend court on your hearing date -- even if you think you have
-worked it out with your landlord or paid off your back rent. The
-landlord could ask for a default judgment against you if you don't
+Start working on a plan with your landlord as soon as you can. Ask your
+landlord if they will make a payment plan with you instead of going to
+court.
+
+If the landlord does not agree to a payment plan, you can ask for a
+payment plan when you go to court for your eviction case.
+
+### Go to court -- if you get a Summary Process Summons and Complaint
+
+Go to court on your hearing date -- even if you think you have worked it
+out with your landlord, or paid off your back rent.
+
+The landlord can ask for a default judgment against you if you do not
 show-up.
 
-**Contact local charities or religious organizations to ask if they have
-any services that may help.**
+**Contact local organizations**
 
+Ask your local agencies, charities and religious organizations if they
+help people who are behind on rent.
+
+See
+[Where can I get help paying my rent?](https://masslegalhelp.org/covid-19/help-with-rent) on MassLegalHelp.
