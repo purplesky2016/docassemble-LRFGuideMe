@@ -11,6 +11,7 @@ metadata:
     LRFGuideMe - Housing Guide Me
   continue button label: Next
   show login: False
+  exit url: https://mlrf-5f1d8.firebaseapp.com/en/guide-me
 ---
 objects:
   - user: Individual
@@ -21,11 +22,11 @@ features:
   bootstrap theme: https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/cerulean/bootstrap.min.css
   question back button: True
   navigation back button: False
+  labels above fields: True
   debug: False
-  hide navbar: True
+  hide navbar: True - uncomment before release
   javascript: "https://mlrf-5f1d8.firebaseapp.com/assets/mlrf-da.js"
-  css: "https://mlrf-5f1d8.firebaseapp.com/assets/mlrf-da.css"
-  
+  css: "https://mlrf-5f1d8.firebaseapp.com/assets/mlrf-da.css"  
 ---
 include:
   - HousingGuide-screen-output.yml
@@ -81,10 +82,8 @@ comment: |
   Main Issue Questions
 question: |
   <h2>What is your housing problem?</h2>
-subquestion: |
-  Check the box next to every problem you have:
 fields:
-  - no label: user_issues
+  - Check the box next to every problem you have: user_issues    
     datatype: checkboxes
     choices:
       - ${main_issues['bad_conditions']['label']}: bad_conditions
@@ -229,12 +228,14 @@ code: |
 ga id: email
 question: |
 subquestion: |
-  If you want to email the output as a PDF file, please enter an email address below. Then click the button to send. When you get to the next screen, you can also open the file to download or print.
-    
+  To email this information to yourself or anyone else as a PDF file, enter an email address below. Then click the send button. 
+  
+  The email will come from [MLHDev-Docassemble@masslegalhelp.org](https://MLHDev-Docassemble@masslegalhelp.org) - check your spam folder if you don't see it.
+  
 fields:
   - Email address: email_address
     datatype: email            
-continue button label: Send then Download 
+continue button label: Send
 ---
 ga id: download-after-email
 field: sent_then_download
@@ -266,6 +267,7 @@ subquestion: |
 
 buttons:     
   - Restart: restart  
+  - Exit: exit
 ---
 ga id: AltExit
 event: alternate_exit
@@ -275,6 +277,7 @@ subquestion: |
   If we did not list your housing problem, look at [MassLegalHelp.org/Housing](https://masslegalhelp.org/housing) for more help.
 buttons:   
   - Restart: restart  
+  - Exit: exit
 ---
 code: |
   sent_ok = send_email(to=[email_address],
@@ -285,6 +288,6 @@ template: email_template
 subject: |
   Legal Resource Finder - Guide Me: Housing  
 content: |
-  Thank you for using our Legal Resource Finder - Guide Me app. 
-  
-  Based on your input, we have generated the attached information to help you handle your housing issues.
+  Thank you for using our Guide Me app.
+
+  Attached is information about steps you can take to help you handle your housing issues.

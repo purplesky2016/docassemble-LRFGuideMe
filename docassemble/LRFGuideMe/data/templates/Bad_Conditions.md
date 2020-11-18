@@ -1,54 +1,68 @@
-### I have bad conditions that need to be fixed
+Guide Me: Steps you can take when...
+====================================
 
-Here are some steps that you can take.
+Your home has bad conditions that need to be fixed
+--------------------------------------------------
 
-##### Send a letter to your landlord
+#### Write to your landlord
 
-First tell your landlord about the bad conditions in writing. It is
-really important that your notice to the landlord be in writing to
-protect you in case the landlord later claims he or she never had
-notice. Make sure you put a date on the notice, and keep a copy of what
-you send for your records.
+Write a letter to your landlord. Tell them about the bad conditions. It
+is important to write to the landlord. Sometimes a landlord claims they
+never had notice. If you write to them, put the date on the letter and
+keep a copy. You will have proof you gave them notice of the bad
+conditions.
 
-Sample Demand for Repair letters can be found here. [https://masslegalhelp.org/housing/bad-conditions/forms-shortcut](https://www.masslegalhelp.org/housing/bad-conditions/forms-shortcut)
+See some sample [Demand for Repair letters](https://MassLegalHelp.org/housing/bad-conditions/forms).
 
-##### Get an inspection
+#### Get an inspection
 
-If your landlord does not respond to your request to make repairs, you
-should get an inspection. Every city and town has a Board of Health or
-Code Enforcement Department that is responsible for making sure that
-your apartment meets the minimum standards for health and safety
-contained in the state sanitary code.
+If your landlord does not respond to your request to make repairs, get
+an inspection. Every city and town has a Board of Health or Code
+Enforcement Department. This agency is responsible for making sure that
+your apartment meets the minimum standards for health and safety explained in the state sanitary code.
 
-##### Withhold rent only if you can save it
-Withholding rent can be an effective way to get your landlord to (finally) make the repairs. However, it also has the potential to
- upset your landlord and should only be done carefully. Some landlords will try to turn this around and start proceedings to evict you for non payment of rent. A landlord, however, will not be able to evict you if you have carefully withheld your rent. You should only
- intentionally withhold your rent if you can meet all of the following
- conditions:
+#### Withhold rent - only if you can save it
 
-- The landlord has knowledge of the bad conditions in your apartment.
+Withholding rent **can** be a good way to get your landlord to make
+repairs.
 
-- You were current with your rent at the time the landlord received knowledge of the defective conditions in your apartment.
+Only try this strategy after you have written to your landlord about the
+bad conditions and gotten an inspection.
 
-- The defective conditions were not caused by you or anyone in your household or guests.
+You need to be careful if you decide to withhold your rent. Some
+landlords will turn it around and try to evict you for non-payment of
+rent. But they will not be able to evict you if you withheld your rent
+correctly.
 
-- You have the ability to put the withheld rent aside and not spend it.
+**Only** withhold your rent if:
 
-##### Sue your landlord
+-   The landlord knows about the bad conditions in your apartment.
 
-Massachusetts has very strong laws that require landlords to make
-repairs. Sometimes these laws can result in your right to have you rent
-abated or reduced -- even if you are behind on your rent. If your
-landlord has not been repairing bad conditions, you may be able to sue
-your landlord for money
+-   You were current with your rent when you wrote to the landlord about
+    the bad conditions in your apartment
 
-Learn more about how to sue your landlord here. [https://masslegalhelp.org/housing/lt1-pullout-13-taking-landlord-to-court](https://masslegalhelp.org/housing/lt1-pullout-13-taking-landlord-to-court)
+-   No one in your household or your guest caused the bad conditions,
+    and
 
-##### Hire a lawyer
+-   You can save the rent you withhold separately from your other money
+    and not spend it.
 
-In Massachusetts, many of the laws that equire landlords to make repairs also include a part that says the landlord has to pay for your
-attorney if you win your lawsuit. This is fall fee shifting. For this reason, you may be able to get a lawyer to represent you without you
-having to pay that lawyer. To find a lawyer who specializes in representing tenants, [link to lawyer referral programs].
+#### Sue your landlord
 
-Learn more about Getting Repairs Made and Your Rights to Safe and Habitable Housing here. [www.masslegalhelpf.org/housing/lt1-pullout-8-getting-repairs-made](www.masslegalhelpf.org/housing/lt1-pullout-8-getting-repairs-made)
+Massachusetts has strong laws that require landlords to make repairs.
+Sometimes these laws can result in your right to have you rent abated or
+reduced -- even if you are behind on your rent. If your landlord has not
+been repairing bad conditions, you may be able to sue your landlord for
+money. Learn more about [how to sue your landlord](https://[MassLegalHelp.org/taking-landlord-to-court).
 
+#### Hire a lawyer 
+
+In Massachusetts, many of the laws that require landlords to make
+repairs also require the landlord to pay for your lawyer, if you win
+your lawsuit. This is called \"fee shifting.\" You may be able to get a
+lawyer to represent you and you not have to pay them. To find a lawyer
+who specializes in representing tenants, see
+[MassLegalHelp.org/lawyer-referral](https://MassLegalHelp.org\lawyer-referral)
+
+Learn more about [Getting Repairs Made and Your Rights to Safe and
+Habitable Housing](https://MassLegalHelp.org\repairs).

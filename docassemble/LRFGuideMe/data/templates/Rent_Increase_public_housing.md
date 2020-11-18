@@ -1,18 +1,26 @@
-#### My landlord wants to raise the rent
-#### and
-#### I live in public housing
+Guide Me: Steps you can take when...
+====================================
 
-If you live in public housing, your rent is typically set based on your
-household income. So if your household income changes, and you have
-timely reported that change in income, you can expect a change in your
-rent.
+My landlord wants to raise the rent and you live in public housing
+------------------------------------------------------------------
 
-If you don't agree that the housing authority has set the amount of your
-rent correctly, you can request a meeting with your worker to review how
-they calculated your rent. You may find they have the amount of your
-household income wrong, and you can then ask them to redo the
-calculation.
+If you live in public housing, usually, your rent is based on your
+household income.
 
-If you did not timely report an increase in your income, the housing
-authority can change your rent retroactively. If this is your situation,
-you should request a meeting to set-up a payment plan.
+If your household income changes, and you report the change when you are
+supposed to, expect your rent to change.
+
+If you do not agree that the housing authority has set the amount of
+your rent correctly, you can ask for a meeting with your worker to
+review how they calculated your rent.
+
+You may find they do not have the correct amount for your household
+income. If this is the problem, you ask them to redo the calculation.
+
+If you did not report an increase in your income on time, the housing
+authority can change your rent retroactively. That is, they will go back
+to the date your income increased and charge you the rent you should
+have paid from that date.
+
+If they are charging you for past rent due, ask for a meeting to set-up
+a payment plan.

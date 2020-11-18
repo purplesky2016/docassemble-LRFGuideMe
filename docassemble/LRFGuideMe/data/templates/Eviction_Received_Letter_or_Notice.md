@@ -1,34 +1,58 @@
-#### My landlord wants to evict me
-#### and
-#### I have received a letter or notice telling me to leave.
+Guide Me: Steps to take when... 
+================================
 
-*This is the first step in the eviction process. You do not need to
-leave by the date stated in the notice. Your landlord can only start an
-eviction case against you after the date you are told to leave has
-passed.*
+Your landlord wants to evict you and you get a letter or notice that tells you to move out
+------------------------------------------------------------------------------------------
 
-Here are some steps you can take.
+This is the first step in the eviction process. You do not need to leave
+by the date in the notice. Your landlord can only start an eviction case
+against you in court after the date you are told to leave has passed.
 
-##### Educate yourself about your rights and options: 
+#### Learn about your rights and options
 
-Use this time to educate yourself about your rights and options. If you
-received a notice to quit for nonpayment of rent, you have the right to
-pay what you owe and stop the landlord from starting an eviction case in
-court.
+Use this time to learn about your rights and options.
 
-Depending on the reason why the landlord has served you with a notice to
-quit, you may have defenses and counterclaims that you can raise in an
-Answer after the court eviction case has begun. Learn more about ways to
-stop or delay an eviction at:
-[www.masslegalhelp.org/housing/lt1-booklet-6-removing-default.pdf](http://www.masslegalhelp.org/housing/lt1-booklet-6-removing-default.pdf).
+If you get served a notice to quit for nonpayment of rent, you have the
+right to pay what you owe and stop the landlord from starting an
+eviction case in court.
 
-##### Talk to your landlord: 
+Learn about:
+
+-   filing an Answer if your landlord takes you to court and you get the Summons and Complaint in your eviction case, and
+
+-   defenses and counterclaims you may be able to use in your Answer,and
+
+-   ways to stop or delay an eviction.
+
+See
+[MassLegalHelp.org/Evictions](https://www.masslegalhelp.org/housing/lt1-pullout-12-evictions).
+
+#### Until December 31, 2020, you may be eligible to stop an eviction where your landlord is asking for back rent
+
+You might be protected by the federal CDC Moratorium if:
+
+-   You cannot pay your full rent because you have lost income or have
+    high medical expenses,
+
+-   You are making best efforts to pay the rent including applying for
+     financial help, and
+
+-   You are likely to become homeless or doubled up if evicted.
+
+[Learn more about the moratorium](https://www.masslegalhelp.org/covid-19/housing), and how to send your landlord a
+[declaration](https://www.cdc.gov/coronavirus/2019-ncov/downloads/declaration-form.pdf) that you are protected by the federal CDC moratorium on
+evictions.
+
+#### Talk to your landlord
 
 Some landlords may be willing to resolve the issues underlying the
-notice to quit without going to court. If your eviction is because you
-owe rent, some landlords will still make a payment plan and let you stay
-as long as you can get caught up on your rent. Even if a landlord is not
-interested in letting you stay long term, many landlords will agree to
-give you a reasonable amount of time to move on your own because the
-landlord has to pay money to have you physically evicted.
+notice to quit without going to court.
 
+If your landlord is evicting you because you owe rent, they may agree to
+a payment plan and let you stay if can get caught up on your rent.
+
+Even if your landlord is not interested in letting you stay-long term,
+they agree to give you a reasonable amount of time to move on your own.
+
+It may cost the landlord more to pay a sheriff or constable to evict
+you, and move all your things out.

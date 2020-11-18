@@ -1,25 +1,48 @@
-#### My landlord wants to evict me
-#### and
-#### I made an agreement with my landlord 
-#### and
-#### My landlord has served me with a motion that I am in violation of my agreement.
+Guide Me: Steps to take when... 
+================================
 
-Here are some steps you can take.
+You made an agreement with your landlord not to evict you, then they filed a motion that says you \"violated\" your agreement
+-----------------------------------------------------------------------------------------------------------------------------
 
-##### Show-Up for the Motion Hearing: 
+#### Show up for the Motion Hearing 
 
-Don't ignore this motion -- even if you have not complied with the
-agreement. At the hearing, the judge will give you a chance to explain
-what happened. You may be able to get the judge to agree to overlook the
-violation if it is not that "material" or if you can show that you can
-continue to comply with the agreement going forward. Sometimes landlords
-will agree to re-negotiate the agreement if you have a reasonable
-explanation or plan for continuing to comply with the agreement.
+Do not ignore the motion! -- Even if you did not follow the agreement
+you need to go to court.
 
-##### File a Motion To Amend Agreement: 
+At the hearing, the judge will give you a chance to explain what
+happened.
 
-If there is time, file your own motion to amend the agreement. If you
-are having trouble keeping your agreement, you can try to get the
-landlord to agree to change the agreement. The way that you can get the
-landlord back to court to re-negotiate is to file a Motion to Amend
-Agreement.
+You may be able to get the judge to overlook the violation if:
+
+-   it is a minor violation, or
+
+-   you can show that you can follow the agreement going forward.
+
+Sometimes landlords will agree to re-negotiate the agreement if you have
+a reasonable explanation or plan to follow the agreement in future.
+
+#### File a Motion to Amend Agreement 
+
+If you have time, file **your own** Motion to Amend the Agreement.
+
+If you are having trouble keeping your agreement, you can ask the
+landlord to to change the agreement.
+
+File a Motion to Amend Agreement to get your landlord back to court so
+you can re-negotiate.
+
+#### Until December 31, 2020, you may be eligible to stop an eviction where your landlord is asking for back rent
+
+You might be protected by the federal CDC Moratorium if you
+
+-   cannot pay your full rent because you have lost income or have high
+    medical expenses, 
+
+-   are making best efforts to pay the rent including applying for
+    financial help, and
+
+-   are likely to become homeless or doubled up if evicted.
+
+[Learn more about the moratorium](https://www.masslegalhelp.org/covid-19/housing), and how to send your landlord a
+[declaration](https://www.cdc.gov/coronavirus/2019-ncov/downloads/declaration-form.pdf) that you are protected by the federal CDC moratorium on
+evictions.
