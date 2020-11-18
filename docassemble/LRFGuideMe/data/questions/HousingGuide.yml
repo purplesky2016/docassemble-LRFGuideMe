@@ -24,7 +24,7 @@ features:
   navigation back button: False
   labels above fields: True
   debug: False
-  #hide navbar: True - uncomment before release
+  hide navbar: True - uncomment before release
   javascript: "https://mlrf-5f1d8.firebaseapp.com/assets/mlrf-da.js"
   css: "https://mlrf-5f1d8.firebaseapp.com/assets/mlrf-da.css"  
 ---
