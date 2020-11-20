@@ -19,14 +19,15 @@ objects:
 ---
 # Color theme of interview
 features:
-  bootstrap theme: https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/cerulean/bootstrap.min.css
+  bootstrap theme: https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/cerulean/bootstrap.min.css  
   question back button: True
   navigation back button: False
   labels above fields: True
   debug: False
   hide navbar: True - uncomment before release
   javascript: "https://mlrf-5f1d8.firebaseapp.com/assets/mlrf-da.js"
-  css: "https://mlrf-5f1d8.firebaseapp.com/assets/mlrf-da.css"  
+  css: "https://mlrf-5f1d8.firebaseapp.com/assets/mlrf-da.css" 
+
 ---
 include:
   - HousingGuide-screen-output.yml
@@ -60,7 +61,7 @@ code: |
     alternate_exit 
     
   #4. Generate output screen  
-  emailYN = True
+  emailYN = True 
   display_results     
   if emailYN:     
     sent_then_download
@@ -218,12 +219,24 @@ subquestion: |
 continue button label: Email
 action buttons:
   - label: Download
-    action: download_only  
+    action: download_only    
+  - label: Restart           
+    action: goto_start_screen
+  - label: Exit
+    action: goto_exit
 ---
 event: download_only
 code: |
   downloadonly
   emailYN = False
+---
+event: goto_start_screen
+code: |
+  command('restart')
+---
+event: goto_exit
+code: |
+  command('exit', url='https://mlrf-5f1d8.firebaseapp.com/en/guide-me')
 ---
 ga id: email
 question: |
@@ -238,7 +251,7 @@ fields:
 continue button label: Send
 ---
 ga id: download-after-email
-field: sent_then_download
+event: sent_then_download
 question: |
   <h2>Download your results</h2>
 subquestion: |  
@@ -255,6 +268,7 @@ subquestion: |
 
 buttons:     
   - Restart: restart  
+  - Exit: exit
 ---
 ga id: downloadonly
 event: downloadonly
