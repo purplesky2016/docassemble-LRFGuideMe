@@ -44,5 +44,5 @@ You might be protected by the federal CDC Moratorium if you
 -   are likely to become homeless or doubled up if evicted.
 
 [Learn more about the moratorium](https://www.masslegalhelp.org/covid-19/housing), and how to send your landlord a
-[declaration](https://www.cdc.gov/coronavirus/2019-ncov/downloads/declaration-form.pdf) that you are protected by the federal CDC moratorium on
+[declaration](https://MassLegalHelp.org/cdc-declaration.pdf) that you are protected by the federal CDC moratorium on
 evictions.

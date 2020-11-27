@@ -34,7 +34,7 @@ declaration that you are protected by the federal CDC moratorium on
 evictions.
 
 See [MassLegalHelp.org/covid-19/housing](https://www.masslegalhelp.org/covid-19/housing) and
-[CDC.gov/coronavirus/2019-ncov/downloads/declaration-form.pdf](https://www.cdc.gov/coronavirus/2019-ncov/downloads/declaration-form.pdf)
+[MassLegalHelp.org/cdc-declaration.pdf](https://MassLegalHelp.org/cdc-declaration.pdf)
 
 #### File an Answer
 

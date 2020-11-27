@@ -38,7 +38,7 @@ You might be protected by the federal CDC Moratorium if you
 
 [Learn more](https://www.masslegalhelp.org/covid-19/housing) about the
 moratorium, and how to send your landlord a
-[declaration](https://www.cdc.gov/coronavirus/2019-ncov/downloads/declaration-form.pdf)
+[declaration](https://MassLegalHelp.org/cdc-declaration.pdf)
 that you are protected by the federal CDC moratorium on evictions.
 
 
