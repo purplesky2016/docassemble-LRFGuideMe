@@ -53,7 +53,7 @@ Massachusetts has strong laws that require landlords to make repairs.
 Sometimes these laws can result in your right to have you rent abated or
 reduced -- even if you are behind on your rent. If your landlord has not
 been repairing bad conditions, you may be able to sue your landlord for
-money. Learn more about [how to sue your landlord](https://[MassLegalHelp.org/taking-landlord-to-court).
+money. Learn more about [how to sue your landlord](https://MassLegalHelp.org/taking-landlord-to-court).
 
 #### Hire a lawyer 
 
