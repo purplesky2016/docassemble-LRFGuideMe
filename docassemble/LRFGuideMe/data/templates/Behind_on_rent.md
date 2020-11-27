@@ -42,7 +42,7 @@ moratorium, and how to send your landlord a
 that you are protected by the federal CDC moratorium on evictions.
 
 
-### Make a payment plan with your landlord
+#### Make a payment plan with your landlord
 
 Many landlords are more interested in getting the rent paid than
 evicting you. So they agree to payment plans.
@@ -57,7 +57,7 @@ court.
 If the landlord does not agree to a payment plan, you can ask for a
 payment plan when you go to court for your eviction case.
 
-### Go to court -- if you get a Summary Process Summons and Complaint
+#### Go to court -- if you get a Summary Process Summons and Complaint
 
 Go to court on your hearing date -- even if you think you have worked it
 out with your landlord, or paid off your back rent.
@@ -65,7 +65,7 @@ out with your landlord, or paid off your back rent.
 The landlord can ask for a default judgment against you if you do not
 show-up.
 
-**Contact local organizations**
+#### Contact local organizations
 
 Ask your local agencies, charities and religious organizations if they
 help people who are behind on rent.

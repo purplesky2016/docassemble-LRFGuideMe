@@ -1,8 +1,8 @@
 Guide Me: Steps you can take when...
-    ====================================
+====================================
 
 Your landlord wants to raise the rent and you have a project based Section 8 or MRVP housing
-        --------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 
 If you have a subsidy that is fixed to the apartment, usually, your rent
 is based on your household income.
@@ -22,7 +22,7 @@ can change your rent retroactively. That is, they will go back to the
 date your income increased and charge you rent you should have paid from
 that date.
 
-If they are charging you for past rent due, ask for a meeting to set-up
+If they are charging you for past rent due, ask for a meeting to set up
 a payment plan.
 
 Some subsidized apartments have rents that are not tied to your income.
