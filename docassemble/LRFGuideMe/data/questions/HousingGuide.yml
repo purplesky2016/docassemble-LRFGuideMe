@@ -10,8 +10,8 @@ metadata:
   short title: |
     LRFGuideMe - Housing Guide Me
   continue button label: Next
-  show login: False
-  exit url: https://mlrf-5f1d8.firebaseapp.com/en/guide-me
+  show login: False 
+
 ---
 objects:
   - user: Individual
@@ -221,9 +221,7 @@ action buttons:
   - label: Download
     action: download_only    
   - label: Restart           
-    action: goto_start_screen
-  - label: Exit
-    action: goto_exit
+    action: goto_start_screen  
 ---
 event: download_only
 code: |
@@ -234,16 +232,13 @@ event: goto_start_screen
 code: |
   command('restart')
 ---
-event: goto_exit
-code: |
-  command('exit', url='https://mlrf-5f1d8.firebaseapp.com/en/guide-me')
----
 ga id: email
 question: |
 subquestion: |
   To email this information to yourself or anyone else as a PDF file, enter an email address below. Then click the send button. 
   
-  The email will come from [MLHDev-Docassemble@masslegalhelp.org](https://MLHDev-Docassemble@masslegalhelp.org) - check your spam folder if you don't see it.
+  The email will come from [Docassemble@MassLegalHelp.org]
+  (https://Docassemble@MassLegalHelp.org) - check your spam folder if you don't see it.
   
 fields:
   - Email address: email_address
@@ -267,8 +262,7 @@ subquestion: |
   ${ pdf_download }
 
 buttons:     
-  - Restart: restart  
-  - Exit: exit
+  - Restart: restart    
 ---
 ga id: downloadonly
 event: downloadonly
@@ -280,8 +274,7 @@ subquestion: |
   ${ pdf_download }
 
 buttons:     
-  - Restart: restart  
-  - Exit: exit
+  - Restart: restart    
 ---
 ga id: AltExit
 event: alternate_exit
@@ -290,8 +283,7 @@ question: |
 subquestion: |
   If we did not list your housing problem, look at [MassLegalHelp.org/Housing](https://masslegalhelp.org/housing) for more help.
 buttons:   
-  - Restart: restart  
-  - Exit: exit
+  - Restart: restart    
 ---
 code: |
   sent_ok = send_email(to=[email_address],
