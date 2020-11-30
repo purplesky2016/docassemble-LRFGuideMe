@@ -237,8 +237,9 @@ question: |
 subquestion: |
   To email this information to yourself or anyone else as a PDF file, enter an email address below. Then click the send button. 
   
-  The email will come from [Docassemble@MassLegalHelp.org]
-  (https://Docassemble@MassLegalHelp.org) - check your spam folder if you don't see it.
+  The email will come from **Administrator** <docassemble@MassLegalHelp.org\>
+  
+  Check your spam folder if you do not see it.
   
 fields:
   - Email address: email_address
