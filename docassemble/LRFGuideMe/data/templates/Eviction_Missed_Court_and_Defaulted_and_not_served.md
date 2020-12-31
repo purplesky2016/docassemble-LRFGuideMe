@@ -40,7 +40,7 @@ move on your own.
 It may cost the landlord more money to hire someone to move you and your
 things out of your apartment.
 
-#### Until December 31, 2020, you may be eligible to stop an eviction where your landlord is asking for back rent
+#### Until January 31, 2021, you may be eligible to stop an eviction where your landlord is asking for back rent
 
 You might be protected by the federal CDC Moratorium if you
 
