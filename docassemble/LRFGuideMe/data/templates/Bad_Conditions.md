@@ -60,7 +60,7 @@ money. Learn more about [how to sue your landlord](https://MassLegalHelp.org/tak
 In Massachusetts, many of the laws that require landlords to make
 repairs also require the landlord to pay for your lawyer, if you win
 your lawsuit. This is called \"fee shifting.\" You may be able to get a
-lawyer to represent you and you not have to pay them. To find a lawyer
+lawyer to represent you and not have to pay them. To find a lawyer
 who specializes in representing tenants, see
 [MassLegalHelp.org/lawyer-referral](https://MassLegalHelp.org\lawyer-referral)
 
