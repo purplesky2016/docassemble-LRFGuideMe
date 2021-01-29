@@ -17,7 +17,7 @@ Zoom or cannot attend court.
 If you do not show up, the landlord can ask the court for a \"default
 judgment\" against you.
 
-#### Until January 31, 2021, you may be eligible to stop an eviction where your landlord is asking for back rent
+#### Until March 31, 2021, you may be eligible to stop an eviction where your landlord is asking for back rent
 
 You might be protected by the federal CDC Moratorium if:
 
