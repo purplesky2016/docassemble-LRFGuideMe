@@ -24,12 +24,12 @@ To qualify:
 See:
 [Learn about Residential Assistance for Families in Transition (RAFT)](https://www.mass.gov/service-details/learn-about-residential-assistance-for-families-in-transition-raft) on the Mass.gov website.
 
-#### Until March 31, 2021, you may be eligible to stop an eviction where your landlord is asking for back rent
+#### Until June 30, 2021, you may be eligible to stop an eviction where your landlord is asking for back rent
 
 You might be protected by the federal CDC Moratorium if you
 
--   cannot pay your full rent because you have lost income or have high
-    medical expenses, 
+-   cannot pay your full rent becauseÂ you have lost income or have high
+    medical expenses,Â 
 
 -   are making best efforts to pay the rent including applying for
     financial help, and
