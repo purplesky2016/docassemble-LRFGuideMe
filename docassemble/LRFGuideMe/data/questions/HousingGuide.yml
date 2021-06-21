@@ -11,11 +11,29 @@ metadata:
     LRFGuideMe - Housing Guide Me
   continue button label: Next
   show login: False 
-
 ---
 objects:
   - user: Individual
   - finalFile: DAFileCollection
+---
+initial: True
+code: |
+  set_language(user_language)
+---
+code: |
+  if url_args.get('lang'):
+    user_language = url_args.get('lang')
+  else:
+    user_language = 'en'
+---
+# event: change_language
+# code: |
+#   if 'lang' in action_arguments():
+#     user_language = action_argument('lang')
+#     set_language(user_language)
+---
+translations:
+  - HousingGuide_es.xlsx
 ---
 # Color theme of interview
 features:
@@ -291,6 +309,15 @@ code: |
                        template=email_template,
                        attachments=[pdf_download])                      
 ---
+template: email_template
+subject: |
+  Legal Resource Finder - Guide Me: Housing  
+content: |
+  Thank you for using our Guide Me app.
+
+  Attached is information about steps you can take to help you handle your housing issues.
+---
+language: es
 template: email_template
 subject: |
   Legal Resource Finder - Guide Me: Housing  

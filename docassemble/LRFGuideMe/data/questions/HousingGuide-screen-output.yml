@@ -111,3 +111,117 @@ content: |
   % endif  
   % endif     
   % endfor 
+---
+language: es
+# Results Logic
+template: results
+comment: |
+  This block generates content on the output screen.  It checks to see what questions the user answered, then provides a summary from the main_issues dictionary with the inline content to address their issues.
+content: |  
+  % for issue in user_issues.true_values():  
+    
+  % if issue == 'bad_conditions':
+  ${main_issues['bad_conditions']['inline']} 
+  % endif 
+  
+  % if issue == 'behind_on_rent':
+  ${main_issues['behind_on_rent']['inline']}  
+  % endif  
+  
+  % if issue == 'complaints':
+  ${main_issues['complaints']['inline']}  
+  % endif  
+    
+  % if issue == 'eviction':  
+  % if eviction_court == 'eviction_court_yes':
+  
+  % if case_results == 'default_judgement':  
+  
+  % if default_served == 'default_served_yes':      
+  ${eviction_issues['default_served_yes']['inline']}
+  % endif  
+  
+  % if default_served == 'default_served_no':      
+  ${eviction_issues['default_served_no']['inline']}  
+  % endif    
+  % endif  
+  
+  % if case_results == 'agreement':    
+    
+  % if violation_agreement == 'violation_agreement_yes':   
+  ${eviction_issues['violation_agreement_yes']['inline']}  
+  % endif  
+  
+  % if violation_agreement == 'violation_agreement_no':    
+  ${eviction_issues['violation_agreement_no']['inline']}
+  % endif   
+  % endif  
+  
+  % if case_results == 'hearing':    
+    
+  % if hearing_served == 'hearing_served_yes':    
+  ${eviction_issues['hearing_served_yes']['inline']}
+  % endif  
+  
+  % if hearing_served == 'hearing_served_no':    
+  ${eviction_issues['hearing_served_no']['inline']}
+  % endif    
+  % endif    
+  % endif    
+  
+  % if eviction_court == 'eviction_court_no':    
+  
+  % if written_notice == 'written_notice_no':    
+  ${eviction_issues['written_notice_no']['inline']}
+  % endif  
+  
+  % if written_notice == 'written_notice_yes':    
+  % if written_notice_type == 'court_summons':    
+  ${eviction_issues['court_summons']['inline']}
+  % endif  
+  
+  % if written_notice_type == 'letter_or_notice':   
+  ${eviction_issues['letter_or_notice']['inline']}
+  % endif    
+  % endif    
+  % endif    
+  % endif      
+    
+  % if issue == 'subsidized_housing':  
+  % for issue in user_issues_subsidized.true_values():      
+  ${subsidized_issues[issue]['inline']}
+  % endfor  
+  % endif  
+  
+  % if issue == 'rent_increase':  
+  % if tenancy_type == 'tenancy_no_writing':  
+  ${rent_increase_issues['tenancy_no_writing']['inline']} 
+  % endif
+  
+  % if tenancy_type == 'lease':  
+  ${rent_increase_issues['lease']['inline']}
+  % endif
+  
+  % if tenancy_type == 'section_8':  
+  % if voucher == 'voucher_yes':  
+  ${rent_increase_issues['voucher_yes']['inline']}  
+  % endif
+  
+  % if voucher == 'voucher_no':  
+  ${rent_increase_issues['voucher_no']['inline']}  
+  % endif   
+  % endif
+  
+  % if tenancy_type == 'mobile_home':  
+  ${rent_increase_issues['mobile_home']['inline']}
+  % endif
+  
+  % if tenancy_type == 'tenant_at_will':  
+  ${rent_increase_issues['tenant_at_will']['inline']}  
+  % endif
+  
+  % if tenancy_type == 'public_housing':  
+  ${rent_increase_issues['public_housing']['inline']}    
+  % endif  
+  % endif     
+  % endfor 
