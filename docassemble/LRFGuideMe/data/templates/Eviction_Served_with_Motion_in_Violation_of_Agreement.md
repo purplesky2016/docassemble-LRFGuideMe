@@ -1,3 +1,4 @@
+
 Guide Me: Steps to take when... 
 ================================
 
@@ -31,7 +32,7 @@ landlord to to change the agreement.
 File a Motion to Amend Agreement to get your landlord back to court so
 you can re-negotiate.
 
-#### Until June 30, 2021, you may be eligible to stop an eviction where your landlord is asking for back rent
+#### You may be eligible to stop an eviction where your landlord is asking for back rent
 
 You might be protected by the federal CDC Moratorium if you
 

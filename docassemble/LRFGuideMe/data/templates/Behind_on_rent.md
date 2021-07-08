@@ -24,7 +24,7 @@ To qualify:
 See:
 [Learn about Residential Assistance for Families in Transition (RAFT)](https://www.mass.gov/service-details/learn-about-residential-assistance-for-families-in-transition-raft) on the Mass.gov website.
 
-#### Until June 30, 2021, you may be eligible to stop an eviction where your landlord is asking for back rent
+#### You may be eligible to stop an eviction where your landlord is asking for back rent
 
 You might be protected by the federal CDC Moratorium if you
 

@@ -27,7 +27,7 @@ Learn about:
 See
 [MassLegalHelp.org/Evictions](https://www.masslegalhelp.org/housing/lt1-pullout-12-evictions).
 
-#### Until June 30, 2021, you may be eligible to stop an eviction where your landlord is asking for back rent
+#### You may be eligible to stop an eviction where your landlord is asking for back rent
 
 You might be protected by the federal CDC Moratorium if:
 

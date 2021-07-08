@@ -37,12 +37,12 @@ These \"stays\" are hard to get. Usually, judges only grant a stay if:
 -   you can show the judge that your landlord will not be harmed if the
     judge delays your eviction date.
 
-####  Until June 30, 2021, you may be eligible to stop an eviction where your landlord is asking for back rent
+####  You may be eligible to stop an eviction where your landlord is asking for back rent
 
 You might be protected by the federal CDC Moratorium if you
 
--   cannot pay your full rent because you have lost income or have high
-    medical expenses, 
+-   cannot pay your full rent because you have lost income or have high
+    medical expenses,
 
 -   are making best efforts to pay the rent including applying for
     financial help, and

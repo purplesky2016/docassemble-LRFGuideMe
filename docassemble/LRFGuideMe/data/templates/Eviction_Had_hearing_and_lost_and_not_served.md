@@ -32,11 +32,11 @@ cannot move forward with physically evicting you until the stay ends.
 
 See [Stay -- Representing Yourself in an Eviction Case](https://www.masslegalhelp.org/housing/lt1-booklet-8-stay.pdf).
 
-####  Until June 30, 2021, you may be eligible to stop an eviction where your landlord is asking for back rent
+####  You may be eligible to stop an eviction where your landlord is asking for back rent
 
 You might be protected by the federal CDC Moratorium if you
 
--   cannot pay your full rent because you have lost income or have high
+-   cannot pay your full rent because you have lost income or have high
     medical expenses,
 
 -   are making best efforts to pay the rent including applying for
