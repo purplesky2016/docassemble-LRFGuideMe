@@ -20,11 +20,11 @@ agreement.
 If your landlord agrees to change your agreement, you should still file
 a Motion to Amend Agreement so that your new agreement can be enforced
 
-####  Until June 30, 2021, you may be eligible to stop an eviction where your landlord is asking for back rent
+####  You may be eligible to stop an eviction where your landlord is asking for back rent
 
 You might be protected by the federal CDC Moratorium if you
 
--   cannot pay your full rent because you have lost income or have high
+-   cannot pay your full rent because you have lost income or have high
     medical expenses,
 
 -   are making best efforts to pay the rent including applying for

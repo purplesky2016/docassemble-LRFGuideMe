@@ -40,11 +40,11 @@ move on your own.
 It may cost the landlord more money to hire someone to move you and your
 things out of your apartment.
 
-#### Until June 30, 2021, you may be eligible to stop an eviction where your landlord is asking for back rent
+#### You may be eligible to stop an eviction where your landlord is asking for back rent
 
 You might be protected by the federal CDC Moratorium if you
 
--   cannot pay your full rent because you have lost income or have high
+-   cannot pay your full rent because you have lost income or have high
     medical expenses,
 
 -   are making best efforts to pay the rent including applying for
@@ -56,4 +56,3 @@ You might be protected by the federal CDC Moratorium if you
 moratorium](https://www.masslegalhelp.org/covid-19/housing), and how to send your landlord a
 [declaration](https://MassLegalHelp.org/cdc-declaration.pdf)
 that you are protected by the federal CDC moratorium on evictions.
-

@@ -10,12 +10,12 @@ Use this time to educate yourself about your rights and options.
 
 [Learn about ways to stop or delay an eviction](https://www.masslegalhelp.org/evictions). 
 
-#### Until June 30, 2021, you may be eligible to stop an eviction where your landlord is asking for back rent
+#### You may be eligible to stop an eviction where your landlord is asking for back rent
 
 You might be protected by the federal CDC Moratorium if you:
 
--   cannot pay your full rent because you have lost income or have high
-    medical expenses,
+-   cannot pay your full rent becauseÂ you have lost income or have high
+    medical expenses, 
 
 -   are making best efforts to pay the rent including applying for
     financial help, and
@@ -37,3 +37,4 @@ the rental market, you may be able to get them to agree to:
 -   give you more time before you move out, and
 
 -   avoid going to court.
+
